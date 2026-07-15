@@ -8,12 +8,10 @@
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-
-<div class="noise-overlay" aria-hidden="true"></div>
 
 <header class="site-header" id="top">
   <nav class="nav container">
@@ -34,25 +32,57 @@
 <main>
 
   <!-- HERO -->
-  <section class="hero container" id="hero">
-    <p class="hero-eyebrow">// Data Architect &amp; Senior Data Engineer</p>
-    <h1 class="hero-title">
-      Hi, I'm <span class="highlight">Maitree Manna</span>.<br />
-      I architect data platforms that scale.
-    </h1>
-    <p class="hero-sub">
-      13+ years across <strong>BFSI</strong> and <strong>Retail</strong> — designing metadata-driven
-      ingestion frameworks, migrating legacy systems to the cloud, and building the Big Data
-      practice at Capgemini. Deep in Hadoop, Spark, Flink, Kafka, AWS, and Azure.
-    </p>
-    <div class="hero-actions">
-      <a href="#contact" class="btn btn-primary">Get in touch</a>
-      <a href="#experience" class="btn btn-ghost">View experience</a>
-    </div>
-    <div class="hero-meta">
-      <span>📍 Mumbai, Maharashtra, India</span>
-      <span>✉️ <a href="mailto:maitreemanna89@gmail.com">maitreemanna89@gmail.com</a></span>
-      <span>🔗 <a href="https://linkedin.com/in/maitree-manna" target="_blank" rel="noopener">linkedin.com/in/maitree-manna</a></span>
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">Data Architect &amp; Senior Data Engineer</p>
+        <h1 class="hero-title">
+          Maitree Manna designs<br />
+          data platforms that <em>scale.</em>
+        </h1>
+        <p class="hero-sub">
+          13+ years across <strong>BFSI</strong> and <strong>Retail</strong> — designing metadata-driven
+          ingestion frameworks, migrating legacy systems to the cloud, and building the Big Data
+          practice at Capgemini. Deep in Hadoop, Spark, Flink, Kafka, AWS, and Azure.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="#experience" class="btn btn-ghost">View experience</a>
+        </div>
+        <div class="hero-meta">
+          <span class="meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            Mumbai, Maharashtra, India
+          </span>
+          <span class="meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3,7 12,13 21,7"/></svg>
+            <a href="mailto:maitreemanna89@gmail.com">maitreemanna89@gmail.com</a>
+          </span>
+          <span class="meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14 21 3"/><path d="M15 3h6v6"/><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>
+            <a href="https://linkedin.com/in/maitree-manna" target="_blank" rel="noopener">linkedin.com/in/maitree-manna</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-card">
+          <div class="avatar-ring">
+            <span class="avatar-initials">MM</span>
+          </div>
+          <p class="visual-name">Maitree Manna</p>
+          <p class="visual-role">Data Architect</p>
+          <div class="visual-tags">
+            <span class="visual-tag">AWS</span>
+            <span class="visual-tag">Azure</span>
+            <span class="visual-tag">Big Data</span>
+          </div>
+        </div>
+        <div class="visual-badge">
+          <span class="visual-badge-num">13+</span>
+          <span class="visual-badge-label">Years in&nbsp;IT</span>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -61,19 +91,63 @@
     <div class="container">
       <p class="section-kicker">01 — About</p>
       <h2 class="section-title">Professional Summary</h2>
-      <div class="about-grid">
-        <p class="about-lead">
-          13+ years of progressive IT experience across the BFSI and Retail domains, spanning key
-          roles as Data Architect, Senior Data Engineer, and Techno-Functional SME.
-        </p>
-        <ul class="about-points">
-          <li>Proven track record authoring winning RFP responses as Bigdata Architect, and successfully architecting and delivering enterprise-scale data platforms as Solution Architect and Data Engineer.</li>
-          <li>Deep hands-on expertise across the big data ecosystem — HDFS, Hive, Impala, Sqoop, NiFi, Flink, PySpark, and Kafka — with strong command of both AWS and Azure cloud platforms.</li>
-          <li>Solid grounding in data warehouse design and architecture, SQL-driven data mining and analysis, Unix, and Python.</li>
-          <li>Skilled at partnering with stakeholders and delivery teams across multiple geographies to design and implement Hadoop ecosystem solutions, both on-premises (Cloudera) and in the cloud.</li>
-          <li>Extensive experience processing large-scale structured, semi-structured, unstructured, and streaming datasets, with end-to-end ownership across the project lifecycle.</li>
-          <li>Proficient in building and maintaining CI/CD pipelines to streamline and automate delivery.</li>
-        </ul>
+
+      <div class="about-layout">
+        <blockquote class="about-quote">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          13+ years of progressive IT experience across the BFSI and Retail domains, spanning
+          key roles as Data Architect, Senior Data Engineer, and Techno-Functional SME.
+        </blockquote>
+
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+            </div>
+            <h3>RFP &amp; Solution Architecture</h3>
+            <p>Authored winning RFP responses as Bigdata Architect and delivered enterprise-scale platforms as Solution Architect.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="12,2 22,8 12,14 2,8"/><polyline points="2,13 12,19 22,13"/><polyline points="2,17 12,23 22,17"/></svg>
+            </div>
+            <h3>Big Data Ecosystem</h3>
+            <p>Deep hands-on expertise across HDFS, Hive, Impala, Sqoop, NiFi, Flink, PySpark, and Kafka.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h11a4 4 0 0 0 0-8 6 6 0 0 0-11.3-1A4.5 4.5 0 0 0 7 18z"/></svg>
+            </div>
+            <h3>Multi-Cloud, AWS &amp; Azure</h3>
+            <p>Strong command of both platforms, backed by solid data warehouse design, SQL-driven analysis, and Python.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="3" y1="12" x2="21" y2="12"/><path d="M12 3a14 14 0 0 1 0 18"/><path d="M12 3a14 14 0 0 0 0 18"/></svg>
+            </div>
+            <h3>Cross-Geo Delivery</h3>
+            <p>Partnering with stakeholders and delivery teams across multiple geographies on Hadoop ecosystem solutions.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><polyline points="21,3 21,9 15,9"/></svg>
+            </div>
+            <h3>Full Lifecycle Ownership</h3>
+            <p>End-to-end ownership — ideation, analysis, design, architecture, development, testing, deployment.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+            </div>
+            <h3>CI/CD Automation</h3>
+            <p>Building and maintaining CI/CD pipelines to streamline and automate delivery.</p>
+          </div>
+        </div>
       </div>
 
       <div class="stat-row">
@@ -105,14 +179,24 @@
 
       <div class="skills-grid">
         <div class="skill-card">
-          <h3>Environment</h3>
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><circle cx="7" cy="7" r="0.6" fill="currentColor" stroke="none"/><circle cx="7" cy="17" r="0.6" fill="currentColor" stroke="none"/></svg>
+            </span>
+            <h3>Environment</h3>
+          </div>
           <div class="chips">
             <span class="chip">Hortonworks Distribution</span>
             <span class="chip">Cloudera</span>
           </div>
         </div>
         <div class="skill-card">
-          <h3>Big Data Ecosystem</h3>
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="12,2 22,8 12,14 2,8"/><polyline points="2,13 12,19 22,13"/><polyline points="2,17 12,23 22,17"/></svg>
+            </span>
+            <h3>Big Data Ecosystem</h3>
+          </div>
           <div class="chips">
             <span class="chip">Hadoop</span><span class="chip">HDFS</span><span class="chip">Hive</span>
             <span class="chip">Impala</span><span class="chip">Sqoop</span><span class="chip">NiFi</span>
@@ -121,7 +205,12 @@
           </div>
         </div>
         <div class="skill-card">
-          <h3>AWS</h3>
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h11a4 4 0 0 0 0-8 6 6 0 0 0-11.3-1A4.5 4.5 0 0 0 7 18z"/></svg>
+            </span>
+            <h3>AWS</h3>
+          </div>
           <div class="chips">
             <span class="chip">Redshift</span><span class="chip">EMR</span><span class="chip">S3</span>
             <span class="chip">Glue</span><span class="chip">Athena</span><span class="chip">Lambda</span>
@@ -129,35 +218,71 @@
           </div>
         </div>
         <div class="skill-card">
-          <h3>Azure</h3>
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            </span>
+            <h3>Azure</h3>
+          </div>
           <div class="chips">
             <span class="chip">Databricks</span><span class="chip">Data Factory</span>
           </div>
         </div>
         <div class="skill-card">
-          <h3>Languages</h3>
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="8,6 3,12 8,18"/><polyline points="16,6 21,12 16,18"/></svg>
+            </span>
+            <h3>Languages</h3>
+          </div>
           <div class="chips">
             <span class="chip">SQL</span><span class="chip">Python</span><span class="chip">Unix Shell Script</span>
           </div>
         </div>
         <div class="skill-card">
-          <h3>SQL / NoSQL Databases</h3>
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>
+            </span>
+            <h3>SQL / NoSQL Databases</h3>
+          </div>
           <div class="chips">
             <span class="chip">Oracle</span><span class="chip">Postgres</span><span class="chip">MySQL</span>
             <span class="chip">MS SQL Server</span><span class="chip">MongoDB</span>
           </div>
         </div>
         <div class="skill-card">
-          <h3>CI/CD &amp; Scheduling</h3>
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+            </span>
+            <h3>CI/CD &amp; Scheduling</h3>
+          </div>
           <div class="chips">
             <span class="chip">GitHub</span><span class="chip">Jenkins</span><span class="chip">Airflow</span>
             <span class="chip">Oozie</span><span class="chip">Autosys</span><span class="chip">BMC</span>
           </div>
         </div>
         <div class="skill-card">
-          <h3>BI / Visualization</h3>
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="20" x2="4" y2="12"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="20" y1="20" x2="20" y2="9"/></svg>
+            </span>
+            <h3>BI / Visualization</h3>
+          </div>
           <div class="chips">
             <span class="chip">Tableau</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <span class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8"/></svg>
+            </span>
+            <h3>AI Tools</h3>
+          </div>
+          <div class="chips">
+            <span class="chip">Claude (Anthropic)</span>
           </div>
         </div>
       </div>
@@ -173,7 +298,7 @@
       <div class="timeline">
 
         <article class="timeline-item">
-          <div class="timeline-marker"></div>
+          <div class="timeline-marker">CG</div>
           <div class="timeline-content">
             <div class="timeline-head">
               <h3>Data Architect <span class="timeline-org">· Capgemini India Pvt. Ltd.</span></h3>
@@ -188,6 +313,7 @@
             </ul>
 
             <div class="sub-project">
+              <span class="sub-project-tag">Featured Project</span>
               <h4>Allianz — End-to-End Insurance Data Ingestion Platform <span>Jan 2024 – Present</span></h4>
               <ul>
                 <li>Serving as Architect and Data Engineer on an end-to-end batch and streaming ingestion pipeline for insurance datasets, designed as a fully metadata-driven framework for scalability across data sources.</li>
@@ -200,7 +326,7 @@
         </article>
 
         <article class="timeline-item">
-          <div class="timeline-marker"></div>
+          <div class="timeline-marker">CTS</div>
           <div class="timeline-content">
             <div class="timeline-head">
               <h3>Senior Data Engineer <span class="timeline-org">· Cognizant Technology Solutions</span></h3>
@@ -209,6 +335,7 @@
             <p class="timeline-role">Mumbai, India</p>
 
             <div class="sub-project">
+              <span class="sub-project-tag">Featured Project</span>
               <h4>Nike — ELC Data Migration <span>Dec 2023 – Apr 2024</span></h4>
               <ul>
                 <li>Re-platformed the current architecture by sunsetting legacy SQL Server and migrating all data to Snowflake on AWS.</li>
@@ -219,6 +346,7 @@
             </div>
 
             <div class="sub-project">
+              <span class="sub-project-tag">Featured Project</span>
               <h4>Health First — Data Mart Development <span>Jul 2023 – Dec 2023</span></h4>
               <ul>
                 <li>Built an ETL pipeline to ingest data from new sources into a landing area, moved it to the raw zone of the data lake, transformed it, and loaded it into AWS Glue and RDS Postgres tables.</li>
@@ -230,7 +358,7 @@
         </article>
 
         <article class="timeline-item">
-          <div class="timeline-marker"></div>
+          <div class="timeline-marker">JPM</div>
           <div class="timeline-content">
             <div class="timeline-head">
               <h3>Data Domain Architect <span class="timeline-org">· JPMorgan Chase</span></h3>
@@ -246,7 +374,7 @@
         </article>
 
         <article class="timeline-item">
-          <div class="timeline-marker"></div>
+          <div class="timeline-marker">TCS</div>
           <div class="timeline-content">
             <div class="timeline-head">
               <h3>Data Engineer <span class="timeline-org">· Tata Consultancy Services</span></h3>
@@ -259,6 +387,7 @@
             </ul>
 
             <div class="sub-project">
+              <span class="sub-project-tag">Featured Project</span>
               <h4>Leading Banks — Retail Banking Data Mart Development (Hadoop Ecosystem) <span>Mar 2019 – Jul 2019</span></h4>
               <ul>
                 <li>Built a data mart on a multi-node Hadoop cluster: ingested data from various sources into the raw area of HDFS using Sqoop, and collected near-real-time data via Kafka and Spark Streaming.</li>
@@ -304,10 +433,30 @@
         <div class="credential-block">
           <h3>Certifications</h3>
           <ul class="credential-list badges">
-            <li><span class="credential-title">AWS Certified Cloud Practitioner</span></li>
-            <li><span class="credential-title">AWS Certified Solutions Architect – Associate</span></li>
-            <li><span class="credential-title">AWS Certified AI Practitioner</span></li>
-            <li><span class="credential-title">Databricks Certified Data Engineer Associate</span></li>
+            <li>
+              <span class="badge-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20,6 9,17 4,12"/></svg>
+              </span>
+              <span class="credential-title">AWS Certified Cloud Practitioner</span>
+            </li>
+            <li>
+              <span class="badge-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20,6 9,17 4,12"/></svg>
+              </span>
+              <span class="credential-title">AWS Certified Solutions Architect – Associate</span>
+            </li>
+            <li>
+              <span class="badge-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20,6 9,17 4,12"/></svg>
+              </span>
+              <span class="credential-title">AWS Certified AI Practitioner</span>
+            </li>
+            <li>
+              <span class="badge-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20,6 9,17 4,12"/></svg>
+              </span>
+              <span class="credential-title">Databricks Certified Data Engineer Associate</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -324,8 +473,14 @@
         conversations. Reach out directly — I reply personally.
       </p>
       <div class="contact-links">
-        <a href="mailto:maitreemanna89@gmail.com" class="btn btn-primary">✉️ maitreemanna89@gmail.com</a>
-        <a href="https://linkedin.com/in/maitree-manna" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn ↗</a>
+        <a href="mailto:maitreemanna89@gmail.com" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3,7 12,13 21,7"/></svg>
+          maitreemanna89@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/maitree-manna" target="_blank" rel="noopener" class="btn btn-ghost">
+          LinkedIn
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14 21 3"/><path d="M15 3h6v6"/><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>
+        </a>
       </div>
     </div>
   </section>
