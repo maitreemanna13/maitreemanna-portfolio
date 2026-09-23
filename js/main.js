@@ -16,7 +16,7 @@ navLinks.querySelectorAll('a').forEach((link) => {
 
 // Scroll reveal
 const revealTargets = document.querySelectorAll(
-  '.section, .timeline-item, .skill-card, .stat, .credential-block'
+  '.section, .timeline-item, .skill-card, .project-card, .stat, .credential-block'
 );
 revealTargets.forEach((el) => el.classList.add('reveal'));
 
