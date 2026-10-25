@@ -17,23 +17,23 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Theme tokens ---------- */
 :root {
-  --bg: #f7f9fb;
-  --bg-alt: #eef2f6;
+  --bg: #fbf8f9;
+  --bg-alt: #f6eef2;
   --surface: #ffffff;
-  --surface-2: #eef2f6;
-  --border: #e2e8ee;
-  --text: #1a2733;
-  --text-muted: #4f5b68;
-  --text-faint: #78838f;
-  --accent: #0f6e63;
-  --accent-soft: rgba(15, 110, 99, 0.08);
-  --accent-2: #9c6b16;
+  --surface-2: #f6eef2;
+  --border: #eddfe5;
+  --text: #2b1f27;
+  --text-muted: #5f515a;
+  --text-faint: #85757f;
+  --accent: #b03a6a;
+  --accent-soft: rgba(176, 58, 106, 0.08);
+  --accent-2: #8a5a7a;
   --mono: 'JetBrains Mono', 'Courier New', monospace;
   --font-display: 'Fraunces', Georgia, serif;
   --max-width: 1080px;
   --radius: 14px;
-  --shadow-sm: 0 1px 2px rgba(26, 39, 51, 0.05);
-  --shadow-md: 0 8px 24px rgba(26, 39, 51, 0.06);
+  --shadow-sm: 0 1px 2px rgba(43, 31, 39, 0.05);
+  --shadow-md: 0 8px 24px rgba(43, 31, 39, 0.06);
 }
 
 .container {
@@ -50,7 +50,7 @@ svg { flex-shrink: 0; }
   top: 0;
   z-index: 50;
   backdrop-filter: blur(12px);
-  background: rgba(247, 249, 251, 0.85);
+  background: rgba(251, 248, 249, 0.85);
   border-bottom: 1px solid var(--border);
 }
 .nav {
@@ -113,8 +113,8 @@ svg { flex-shrink: 0; }
   inset: -20% -10% auto -10%;
   height: 480px;
   background:
-    radial-gradient(ellipse 620px 380px at 12% 10%, rgba(15, 110, 99, 0.09), transparent 65%),
-    radial-gradient(ellipse 520px 360px at 92% 0%, rgba(156, 107, 22, 0.07), transparent 65%);
+    radial-gradient(ellipse 620px 380px at 12% 10%, rgba(176, 58, 106, 0.09), transparent 65%),
+    radial-gradient(ellipse 520px 360px at 92% 0%, rgba(138, 90, 122, 0.08), transparent 65%);
   pointer-events: none;
   z-index: 0;
 }
@@ -266,10 +266,10 @@ svg { flex-shrink: 0; }
 .btn-primary {
   background: var(--accent);
   color: #ffffff;
-  box-shadow: 0 6px 16px rgba(15, 110, 99, 0.22);
+  box-shadow: 0 6px 16px rgba(176, 58, 106, 0.22);
 }
 .btn-primary:hover {
-  background: #0c584f;
+  background: #922f57;
   transform: translateY(-2px);
 }
 .btn-ghost {
